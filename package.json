@@ -1,16 +1,22 @@
 {
   "name": "rest",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.16.3"
+  },
   "description": "API Rest de prueba",
   "main": "index.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "nodemon server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manuelon",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.2",
     "express": "^4.17.1",
-    "mongoose": "^5.10.7"
+    "mongoose": "^5.10.7",
+    "mongoose-unique-validator": "^2.0.3",
+    "underscore": "^1.11.0"
   }
 }
