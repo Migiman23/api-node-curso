@@ -10,6 +10,12 @@ process.env.PORT = process.env.PORT || 3000;
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
 // ====================
+// Google CLIENT ID
+// ====================
+process.env.CLIENT_ID = process.env.CLIENT_ID || '500094100186-5nle7341t2kmme0lk72rf7lctsr2h6g3.apps.googleusercontent.com';
+
+
+// ====================
 // Vencimiento del token
 // ====================
 // 60 segundos * 60 minutos * 24 horas * 30 días
