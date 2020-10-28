@@ -1,0 +1,1 @@
+// En esta ruta se almacenan recursos estáticos o información de uso global
